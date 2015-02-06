@@ -8,7 +8,7 @@ MAINTAINER glorysdj glorysdj@gmail.com
 ADD ./apt.conf /etc/apt/
 
 RUN apt-get update
-RUN apt-get install -y git openjdk-7-jdk
+RUN apt-get install -y nano openjdk-7-jdk
 
 # install scala
 ENV SCALA_VERSION 2.10.4
