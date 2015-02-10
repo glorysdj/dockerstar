@@ -1,0 +1,4 @@
+#!/bin/bash
+
+echo $1
+$SPARK_HOME/bin/spark-class org.apache.spark.deploy.worker.Worker $1
